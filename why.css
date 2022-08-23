@@ -1,0 +1,156 @@
+*{
+    overflow-x: hidden;
+}
+.mainhead{
+    color: #402824;
+    text-align: center;
+    align-items: center;
+    /* font-family: 'Trocchi', serif;  */
+    font-size: 30px;
+    font-family: Malgun Gothic;
+     font-weight: bolder;
+}
+.subhead{
+    color: #402824;
+    text-align: center;
+    align-items: center;
+  
+    font-family: 'Courier New', Courier;
+    font-size: 14px;
+}
+
+
+
+
+.navbar{
+    font-weight: 700;
+    font-family: Montserrat,sans-serif;
+    font-size: 1.1rem;
+}
+.nav-item{
+    padding: 0 25px;
+    }
+.header{
+    /* background-color: #fe96b3; */
+    background-color: #fefafc;
+    text-align: center;
+    margin: auto;
+    position: fixed;
+    top: 0%;
+    align-items: center;
+    
+    font-family: Verdana;
+    background-color: #fefafc;
+}
+.lgNavbar {
+    display: none;
+  }
+  @media only screen and (max-width: 980px) {
+    .lgNavbar {
+      display: block;
+    }
+    .hideNavbar {
+      display: none;
+    }
+  }
+
+
+/* 
+mid */
+
+body{
+    /* background-image: url(img/rev.jpg); */
+    background-color: #fefafc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Gbox{
+    
+    margin: auto ;
+   
+    /* border-top-left-radius: 350px;
+    border-top-right-radius: 350px; */
+    border-top: pink;
+    text-align: center;
+    width: 50%;
+    color: rgb(0, 0, 0);
+    /* font-family: 'Times New Roman', Times, serif sans-serif; */
+}
+.contain{
+    margin: auto;
+}
+.reviews{
+    padding-top: 25px ;
+     /* font-family: 'Trocchi', serif; 
+     font-size: 30px;
+      font-weight: bolder; */
+       /* line-height: 58px;  */
+ 
+}
+.recommended{
+
+    padding-top: 0;
+    /* font-family: 'Courier New', Courier; */
+    padding-bottom: 5px;
+    /* font-size: 14px; */
+}
+.revbox{
+    padding: 10px;
+    background: #ba7e73;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+/* order now */
+.for-custom{
+
+    font-family: Montserrat,sans-serif;
+  font-weight: bold;
+    font-size: 16px
+}
+
+/* .context{
+    text-align: center;
+    padding: auto;
+    background-image: url(img/1812140__1_-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+.detail{
+margin: 10%;
+ font-family: Montserrat,sans-serif;
+ text-align: center;
+ font-weight: bold;
+    font-size: 16px
+}
+
+
+
+/* footer */
+/* footer  */
+.brand-name{
+    text-align: center;
+}
+.footer{
+background-color: rgba(250, 169, 112, 1);
+text-align: center;
+}
+.brand{
+    font-family: Brush Script MT;
+    font-size: 55px;
+}
+.logos{
+    text-align: center;
+}
+.link-below > a {
+    color: black;
+    font-family: sans-serif ;
+    text-transform: uppercase;
+    
+    font-weight: bold;
+    text-decoration: none;
+}

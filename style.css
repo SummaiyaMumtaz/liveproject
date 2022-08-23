@@ -1,0 +1,231 @@
+body{
+    background-color: #ffffff;
+}
+.mainhead{
+    font-family: Bahnschrift;
+    color: #402824;
+    text-align: center;
+    align-items: center;
+    /* font-family: 'Trocchi', serif;  */
+    font-size: 30px;
+     font-weight: bolder;
+}
+.subhead{
+    text-align: center;
+    align-items: center;
+  
+    font-family: Rockwell;
+    font-size: 14px;
+}
+*{
+    overflow-x: hidden;
+}
+.nav-item{
+padding: 0 25px;
+}
+.navbar{
+    font-weight: 700;
+    font-family: Montserrat,sans-serif;
+    font-size: 1.1rem;
+
+}
+
+
+.header{
+    /* background-color: #fe96b3; */
+    background-color: #fefafc;
+    text-align: center;
+    margin: auto;
+    position: fixed;
+    top: 0%;
+    align-items: center;
+    
+    font-family: Verdana;
+    background-color: #fefafc;
+
+}
+.lgNavbar {
+    display: none;
+  }
+  @media only screen and (max-width: 980px) {
+    .lgNavbar {
+      display: block;
+    }
+    .hideNavbar {
+      display: none;
+    }
+  }
+
+/* .triangle{
+    background-image: url(img/arrow.svg);
+    animation: arrows 1s infinite;
+} */
+
+/* next */
+.bg{
+    background-image: url(img/bg2.jpg); 
+    background-size: contain;
+    
+}
+.tag-line{
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 100px;
+    font-family: Brush Script MT;
+    color: #402824;
+
+
+}
+
+
+/*custom cakes steps */
+.div2{
+    background-color: #ffffff;
+}
+.step-box{
+    margin: 30px;
+    text-align: center;
+}
+
+.custom{
+    text-align: center;
+    align-items: center;
+    padding-top: 25px ;
+     font-family: 'Trocchi', serif; 
+     font-size: 30px;
+      font-weight: bolder;
+}
+.one, .two, .three{
+    
+    padding-top: 15px;
+    /* font-family: Rockwell; */
+    font-family: Garamond;
+    padding-bottom: 15px;
+    font-size: 18px;
+   
+}
+
+
+/* footer */
+/* footer  */
+.brand-name{
+    text-align: center;
+}
+.footer{
+background-color: rgba(250, 169, 112, 1);
+text-align: center;
+}
+.brand{
+    font-family: Brush Script MT;
+    font-size: 55px;
+}
+.logos{
+    text-align: center;
+}
+.link-below > a {
+    color: black;
+    font-family: sans-serif ;
+    text-transform: uppercase;
+    
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/* menu */
+.menu{
+    text-align: center;
+    width: auto;
+/*     
+    margin: 70px; */
+   
+}
+.booz{
+    text-align: center;
+}
+.menu-img{
+    border: 10px solid #402824;
+    background-image: url(img/rev2.jpg);
+    background-size: contain;
+    text-align: center;
+    margin: auto; 
+    width: 40%;
+    height: 300px;
+}
+@media screen and (max-width: 1120px) {
+    .menu {
+      width: 80%;
+      height: auto;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .menu-img{
+        width: 80% ;
+        height: 70%px;
+    }
+    
+    /* .column {
+      width: 70%;
+    } */
+  }
+/* .menu{
+    text-align: center;
+    width: 90%;
+}
+.booz{
+    text-align: center;
+}
+.menu-img{
+    border: 10px solid #402824;
+    background-image: url(img/rev2.jpg);
+    background-size: contain;
+    text-align: center;
+    margin: auto; 
+    width: 40%;
+    height: 400px;
+}
+@media screen and (max-width: 992px) {
+    .menu {
+      width: 80%;
+      height: auto;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .menu-img{
+        width: 90%;
+        height: 60%;
+    }
+    .menu{
+        width: 80%;
+    }
+    .column {
+      width: 90%;
+    }
+  } */
+  
+
+  
+
+/* 
+slider */
+.slider{
+  
+    background-size: contain;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    width: 50%;
+    height: 400px;
+}
+.slide-box{
+    margin-top: auto;
+    margin-bottom: auto; 
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+}
+mt{
+    margin-top: 20%;
+    margin: auto 0;
+}

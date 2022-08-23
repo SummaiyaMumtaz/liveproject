@@ -1,0 +1,142 @@
+*{
+    overflow-x: hidden;
+}
+.mainhead{
+    color: #402824;
+    text-align: center;
+    align-items: center;
+    font-family: 'Trocchi', serif; 
+    font-size: 30px;
+     font-weight: bolder;
+}
+.subhead{
+    color: #402824;
+    text-align: center;
+    align-items: center;
+  
+    font-family: 'Courier New', Courier;
+    font-size: 14px;
+}
+
+
+
+
+.navbar{
+    font-weight: 700;
+    font-family: Montserrat,sans-serif;
+    font-size: 1.1rem;
+   
+  
+}
+.nav-item{
+    padding: 0 25px;
+    }
+
+.header{
+    /* background-color: #fe96b3; */
+    background-color: #fefafc;
+    text-align: center;
+    margin: auto;
+    position: fixed;
+    top: 0%;
+    align-items: center;
+    
+    font-family: Verdana;
+    background-color: #fefafc;
+    
+}
+.lgNavbar {
+    display: none;
+  }
+  @media only screen and (max-width: 980px) {
+    .lgNavbar {
+      display: block;
+    }
+    .hideNavbar {
+      display: none;
+    }
+  }
+
+
+/* order now */
+.link{
+    font-family: Montserrat,sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #402824 ;
+}
+.link :hover{
+    font-family: Montserrat,sans-serif;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.order-now{
+    /* background-image: url(img/bg2.jpg); */
+    background-size: contain;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+
+/* 
+customiza */
+
+.step-box{
+    background-color: rgba(255, 255, 255, 1);
+    margin: 30px;
+    text-align: center;
+}
+
+.custom{
+    text-align: center;
+    align-items: center;
+    padding-top: 25px ;
+     font-family: 'Trocchi', serif; 
+     font-size: 30px;
+      font-weight: bolder;
+}
+.one, .two, .three{
+    
+    padding-top: 15px;
+    /* font-family: Rockwell; */
+    font-family: Garamond;
+    padding-bottom: 15px;
+    font-size: 18px;
+   
+}
+
+/* footer  */
+.brand-name{
+    text-align: center;
+}
+.footer{
+background-color: rgba(250, 169, 112, 1);
+text-align: center;
+}
+.brand{
+    font-family: Brush Script MT;
+    font-size: 55px;
+}
+.logos{
+    text-align: center;
+}
+.link-below > a {
+    color: black;
+    font-family: sans-serif ;
+    text-transform: uppercase;
+    
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
